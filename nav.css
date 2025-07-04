@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #580458;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 175px;
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.navbar a {
+    color: #fff;
+    text-decoration: solid;
+}
+.navbar a:hover{
+    color: #ec0ac7;
+}
+.nav-link{
+    color: #ec0ac7;
+    text-decoration: double;
+    margin-right: 20px;
+}
+.nav-link.active{
+    color: #007bff;
+}
+
+ 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membership</title>
+        <link rel="stylesheet" type="text/css" href="nav.css" />
+    </head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="contacts.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <!--Membership page-->
+      <div class="membership-page">
+        <h1>Membership Options</h1>
+        <p>Choose the membership plan that's right for you!</p>
+
+        <!--Membership Plans-->
+        <div class="membership-plans">
+          <div class="plans">
+            <h2>Basic Membership</h2>
+            <p>R..../month</p>
+            <ul>
+              <li>Access to gym facilities during operating hours</li>
+              <li>Group Fitness classes</li>
+              <li>Personal training sessions(additional fee)</li>
+            </ul>
+            <a href="#" class="btn">Sign up</a>
+          </div>
+        <div class="plan">
+          <h2>Premium Plan</h2>
+          <p>R.....</p>
+          <ul>
+            <li>Everything in the Basic Plan</li>
+            <li>Small group training sessions</li>
+            <li>Free guest passes</li>
+          </ul>
+          <a href="#" class="btn">Sign up</a>
+        </div>
+        <div class="plan">
+          <h2>Elite Membership</h2>
+          <p>R.....</p>
+          <ul>
+            <li>Everything in the Premium Membership plan</li>
+            <li>One-on-One Personal training sessions</li>
+            <li>Complimentary access to special events</li>
+          </ul>
+          <a href="#" class="btn">Sign up</a>
+        </div>
+        </div>
+        <!--Quote Request Form-->
+        <div class="qoute-request-form">
+          <h2>Get a Customized Qoute</h2>
+          <p>Fill ou the form below to recieve a personalized qoute for your membership needs</p>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea><br><br>
+            <input type="submit" value="Get Qoute">
+          </form>
+        </div>
+      </div>
+      <!--Get Qoute btn-->
+      <form action="getqouteprocess.php"
+      method="post">
+    <!--Form fields here-->
+    <input type="submit" value ="Get Qoute" formaction="getqouteprocess.php">
+    </form>
+</body>
+</html>
